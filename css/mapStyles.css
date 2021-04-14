@@ -1,0 +1,83 @@
+
+/* STYLING FOR ALABAMA + ARIZONA MAP */
+
+body {
+    font-family: 'Sacramento', 'cursive';
+    background-color: #f6f6f6;
+}
+
+
+
+.hint-grey {
+    fill: #a9a9a9;
+    stroke: #f6f6f6;
+    stroke-width: 3px;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+}
+
+a#us-map.hint-grey:hover {
+  opacity:1;
+  fill:#ec9b59;
+  cursor: pointer;
+}
+
+
+a#us-map.hint-orange {
+    fill: rgb(236,155,89);
+    cursor: pointer;
+}
+
+.hint-orange {
+    fill: #ec9b59;
+    cursor: pointer;
+}
+
+
+
+
+
+.index-color-pumpkin {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 3rem;
+    color: #ec9b59;
+    line-height: 3.25rem;
+}
+
+
+
+/* STYLING FOR ALASKAN MAP */
+
+
+body {
+    font-family: 'Sacramento', 'cursive';
+    background-color: #f6f6f6;
+}
+
+
+.hint-alaska-grey {
+    fill: #a9a9a9;
+    stroke: #f6f6f6;
+    stroke-width: .75px;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+}
+
+a#us-map.hint-alaska-grey:hover {
+  opacity: 1;
+  fill:#ec9b59;
+  cursor: pointer;
+}
+
+a#us-map.hint-orange {
+    fill: rgb(236,155,89);
+    cursor: pointer;
+}
+
+.hint-orange {
+    fill: #ec9b59;
+    cursor: pointer;
+}
